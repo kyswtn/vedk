@@ -18,8 +18,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
-    "publish": "bunx npm@10 publish"
+    "build": "unbuild"
   },
   "peerDependencies": {
     "typescript": "^5.0.0",

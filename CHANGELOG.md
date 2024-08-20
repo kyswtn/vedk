@@ -4,4 +4,4 @@
 
 ### Minor Changes
 
-- 4233d6b: First release.
+- 4233d6b: First release

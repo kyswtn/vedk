@@ -33,6 +33,7 @@ jobs:
       - name: Create release pull request or publish
         uses: changesets/action@v1
         with:
+          publish: bun run publish && bun run changeset tag
           commit: 'chore: release'
           title: 'A New Release'
           setupGitUser: true

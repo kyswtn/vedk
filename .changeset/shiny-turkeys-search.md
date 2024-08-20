@@ -1,5 +1,0 @@
----
-"vedk": minor
----
-
-First release.

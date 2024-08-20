@@ -1,7 +1,7 @@
 {
   "name": "vedk",
   "description": "Visual Studio Code Extension Development Kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "type": "module",
   "exports": {

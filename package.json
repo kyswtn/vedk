@@ -1,7 +1,7 @@
 {
   "name": "vedk",
   "description": "Visual Studio Code Extension Development Kit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -14,7 +14,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "publish": "bunx npm@10 publish"

@@ -31,7 +31,9 @@
   },
   "json": {
     "formatter": {
-      "trailingCommas": "none"
+      "trailingCommas": "none",
+      // This is to prevent biome from single lining arrays
+      "lineWidth": 10
     },
     "parser": {
       "allowComments": true
